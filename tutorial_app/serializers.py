@@ -6,6 +6,7 @@ class LanguageSerializer(serializers.ModelSerializer):
     class Meta:
         model = Category
         fields = ('id',
+            'title',
             'english',
             'russian',
             'turkmen',
