@@ -1,12 +1,13 @@
 from rest_framework import serializers
-from tutorial_app.models import Language
+from tutorial_app.models import Category
 
 
 class LanguageSerializer(serializers.ModelSerializer):
     class Meta:
-        model = Language
+        model = Category
         fields = ('id',
             'english',
             'russian',
             'turkmen',
-            'turkish')
+            'turkish',
+            'color')

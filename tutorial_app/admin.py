@@ -1,5 +1,5 @@
 from django.contrib import admin
 
-from tutorial_app.models import Language
+from tutorial_app.models import Category
 
-admin.site.register(Language)
+admin.site.register(Category)
